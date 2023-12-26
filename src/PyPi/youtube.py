@@ -72,4 +72,3 @@ def render_YouTube_video(URL: str, width: int = 780, height: int = 600) -> str:
             raise InvalidURLException
     except Exception as e:
         raise e
-
